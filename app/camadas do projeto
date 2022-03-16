@@ -1,0 +1,13 @@
+server
+
+    service = Nessa pasta vai tudo que é regra de negocio ou processamento.
+
+    controller = Intermediar a camada de apresentação(routes) com a regra de negocio.
+
+    routes = camada de apresentação.
+
+    server = responsável por criar o servidor. (mas nao instacia)
+
+    index = instancia o servidor e expõe para web. (lado da infraestrutura)
+
+    config = tudo que for estático no projeto.
